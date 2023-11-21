@@ -4,8 +4,8 @@ import { sampleDelete, sampleGet, samplePost } from "../controller/sample"
 
 const router = Router()
 
-router.route("/post").get(sampleGet)
-router.route("/get").post(samplePost)
+router.route("/get").get(sampleGet)
+router.route("/post").post(samplePost)
 router.route("/put").put(samplePost)
 router.route("/delete").delete(sampleDelete)
 

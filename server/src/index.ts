@@ -28,3 +28,5 @@ const PORT: number = Number(process.env.PORT) || 5001
   }
 })()
 // -----------------------------------------------------------------------
+// "eslint:recommended",
+// "plugin:@typescript-eslint/recommended",
